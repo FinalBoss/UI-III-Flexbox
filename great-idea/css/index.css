@@ -3,7 +3,6 @@
 	margin: 0;
 	padding: 0;
 	max-width: 100%;
-	border: 1px solid grey;
   }
   
   /* Your code starts here! */
@@ -20,21 +19,20 @@
   
   .navi {
 
-	  display: flex;  
-	  flex-direction: column right;
-	   justify-content: space-evenly;
-   width: 90%;
+	 
+	  width: 90%;
+	  word-spacing: 30px;
  
 	
 	
   }
   
   a {
-	 
+
+
 	text-decoration: none;
 	  color: grey;
 	  font-size: 20px;
-	
 	  
   }
   
@@ -42,10 +40,8 @@
 	  
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around | right;
-	align-items: stretch;
-	  margin: 0 auto;
-	  padding: 0px;
+	justify-items: baseline;
+	
 	  
   }
   
@@ -53,24 +49,31 @@
    
   #headsho {
 
-	  width: 40%;
+
 	font-size: 100px;
 	text-align: center;
-  margin-right: 200px;
   }
   
 
   
   .contimg {
+	
+
+	display: block;
+	margin-left: 0;
+	margin-right: 0;
+
 	  
 	  width: 100%;
-	  margin-right: 100px;
   }
   
   .innovmain {
   
-  width: 1200px;	
   display: flex;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+
 
   
   }
@@ -79,7 +82,6 @@
 	  
 	  
 	 width: 155px;
-	 margin-left: 60px;
 	padding: 5px;
 	font-size: 14px;
 	border: 1px solid black;
@@ -90,65 +92,77 @@
   .logo {
 	
 	width: 40%;
-	display: flex;
-	flex-direction: column | right;
-justify-content: stretch;
 
 	
 	
   }
   
-  .topcont {
-	  
-	  border-top: 5px solid black;
+  .topcont, .bottomcont {
+
+
+	display: flex;
+	flex-direction: row;
+	justify-content:  space-around;
+	
+
   }
   
+  .topcont {
+
+
+	border-top: 1px solid black;	
+
+
+
+  }
+
+.bottomcont {
+
+	margin-bottom: 50px;
+	border-bottom: 1px solid black;
+}
+
   .topcont article {
   
    width: 44%;
-	display: flex;
-	padding-right: 1px;
-	margin-left: 50px; 
+
   
   }
   
   
   
-  
-  
-  .bottomcont {
-	
-	  border-bottom: 5px solid black;
-	
+  article {
+
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+
   }
+  
+  
   
   .bottomcont article {
 	  width: 28%;
-	display: flex;
-	padding-right: 10px;
-   
-	margin-left: 50px; 
+
+	
 	  
   }
   
   #leftcont {
 	  
-	display: flex;
-	flex-direction: column;
+
 	width: 40%;
 	text-align: center;
-	margin-left: 75px;
-	padding-top: 0;
+
 	
 	
   }
   
   #rightcont {
 	  
-	  display: flex;
+
 
 	width: 50%;
-	margin-left: 150px;
   
   }
   
@@ -164,15 +178,13 @@ justify-content: stretch;
   h1, h2 {
 	  font-family: "Bangers", cursive;
 	letter-spacing: 1px;
-	margin-bottom: 15px;
   }
   
   .middle-img {
   
-	display: block;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 100%;
+
+
   }
   
   #copyhuh {
