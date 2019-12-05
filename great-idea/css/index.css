@@ -21,7 +21,8 @@
 
 	 
 	  width: 90%;
-	  word-spacing: 30px;
+	  word-spacing: 40px;
+	  text-align: left;
  
 	
 	
@@ -49,8 +50,8 @@
    
   #headsho {
 
-
-	font-size: 100px;
+margin-top: 70px;
+	font-size: 85px;
 	text-align: center;
   }
   
