@@ -215,32 +215,8 @@ margin: 40px;
   }
 
  
-  #column1, #column2, #column3 {
+  
 
-
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-
-    
-
-  }
-
-  #column1  {
-
-
-   
-  }
-
-  #column2  {
-
-
-  }
-
-  #column3  {
-
-
-  }
   
   
    .sectioncont1, .sectioncont2, .sectioncont3, .sectioncont4, .sectioncont5, .sectioncont6 {
@@ -289,6 +265,8 @@ height: 45px;
 margin: 20px;
 
   }
+
+  /* Services */
 
   .servicecont {
 
@@ -359,6 +337,8 @@ flex-direction: column;
   padding-bottom: 0;
   margin-bottom: 0;
 
+
+
 }
 
 #fact1 {
@@ -369,12 +349,10 @@ margin: 0;
 
 #services-info-img {
 
-height: 90%;;
+height: 400px;
   margin-top: 0;
   margin-bottom: 0;
-
-	  
-	  width: auto;
+   width: auto;
 }
 
 #somecont, #factcontent {
@@ -382,4 +360,57 @@ height: 90%;;
 margin: 0;
 
 }
+
+
+.column {
+
+
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+
+ 
+}
+
+/* Media Queries */
+
+
+@media (max-width: 500px) {
+
+  .column {
+   
+  flex-direction: column;
+  
+  }
+
+
+#facts {
+
+
+  width: 70rem;
+
+
+}
+
+#fact1 {
+
+  width: 100%;
+}
+
+#services-info-img {
+
+  display: none;
+  height: 5rem;
+  width: 10rem;
+  margin-left: 15rem;
+}
+  
+}
+
+
+
+
+
+/* Product: Gravity Cat 2.0 */
 
